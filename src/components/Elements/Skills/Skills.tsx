@@ -1,5 +1,7 @@
 import React from 'react'
 import Skill from '../../Common/Skill/Skill'
+import LinkButton from "../../Common/LinkButton/LinkButton";
+import {FaBriefcase} from "react-icons/fa";
 
 const Skills = () => {
   return (
@@ -39,7 +41,10 @@ const Skills = () => {
             <h2 className='text-4xl text-center'>Software Patterns</h2>
             <Skill label='DDD' percent={90} />
             <Skill label='HEXAGONAL' percent={90} />
-            <Skill label='CQRS' percent={80} />
+            <Skill label='CQRS' percent={60} />
+            <div className='flex mt-8'>
+              <LinkButton to={'experience'} icon={<FaBriefcase />} label={'My Experience'} />
+            </div>
           </div>
         </div>
       </div>

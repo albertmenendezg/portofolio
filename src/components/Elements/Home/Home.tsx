@@ -2,7 +2,7 @@ import React from 'react'
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
 import { BsPersonFill } from 'react-icons/bs';
 import { useTypewriter, Cursor} from 'react-simple-typewriter'
-import {Link} from 'react-scroll';
+import LinkButton from '../../Common/LinkButton/LinkButton';
 
 const Home = () => {
     
@@ -47,18 +47,7 @@ const Home = () => {
                         </a>
                     </div>
                 </div>
-                <div className='flex mx-auto text-xl md:text-3xl py-4 px-7 bg-red-500 rounded hover:text-black'>
-                    <Link
-                        to='about'
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                        className='flex flex-row items-center cursor-pointer'
-                    >
-                        <BsPersonFill />
-                        <span className='ml-3'>More About Me</span>
-                    </Link>
-                </div>
+                <LinkButton to='about' icon={<BsPersonFill />} label='More About Me' />
             </div>
             <div className='hidden md:flex w-1/2 h-100 items-center justify-center overflow-hidden'>
                 <img 

@@ -1,6 +1,8 @@
-import React from 'react'
-import {FaPhoneAlt} from 'react-icons/fa'
-import {FiAtSign} from 'react-icons/fi'
+import React from 'react';
+import {FaPhoneAlt} from 'react-icons/fa';
+import {FiAtSign} from 'react-icons/fi';
+import {BsCodeSlash} from 'react-icons/bs';
+import LinkButton from '../../Common/LinkButton/LinkButton';
 
 const About = () => {
   return (
@@ -15,7 +17,7 @@ const About = () => {
         <div className='md:w-1/2 h-100'>
             <h3 className='text-xl md:text-3xl font-bold'>Hi, I am Albert Menéndez Fullstack Developer.</h3>
             <p className='text-md md:text-xl mt-3 md:mt-8 text-justify'>
-                Currently I am based in Barcelona with almost 2 year of web development experience and multiple projects developed for just learning while coding new languages or new software techniques.
+                Currently I am based in Barcelona with 2 year of web development experience and multiple projects developed for just learning while coding new languages or new software techniques.
                 <br/>Very interested in new software architechtures like DDD, CQRS and Hexagonal patterns and also very focused on working with testing procedures like TDD.
             </p>
             <p className='mt-8'>You can contact with me in this ways.</p>
@@ -32,6 +34,9 @@ const About = () => {
                         <span className='mt-3'>albertmenendezg@gmail.com</span>
                     </a>
                 </div>
+            </div>
+            <div className="flex justify-center mt-10">
+                <LinkButton icon={<BsCodeSlash />} label='My Skills' to='skills' />
             </div>
         </div>
     </section>
