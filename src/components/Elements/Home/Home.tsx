@@ -19,7 +19,7 @@ const Home = () => {
     const GitHubUrl = 'https://github.com/albertmenendezg'
     
     return (
-        <section id='home' className='min-h-screen w-full pt-20 pb-40 px-5 flex flex-row border-b border-gray-900 rounded-md gap-4'>
+        <section id='home' className='min-h-screen w-full pt-20 pb-40 px-5 flex flex-row border-b border-gray-900 rounded-md'>
             <div className='md:w-1/2 flex flex-col gap-24'>
                 <div className='flex flex-col gap-2 md:gap-8'>
                     <h4 className='text-md md:text-2xl font-normal'>Welcome to my Portfolio</h4>
