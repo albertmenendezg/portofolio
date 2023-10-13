@@ -7,13 +7,6 @@ import ScrollLinkButton from '../../Common/ScrollLinkButton/ScrollLinkButton';
 const About = () => {
   return (
     <section id='about' className='min-h-screen w-full pt-10 pb-20 px-5 flex flex-row border-b border-gray-900 rounded-md gap-x-16'>
-        <div className='hidden md:w-1/2 h-100 md:flex bg-gray-700 rounded-xl items-center justify-center'>
-            <img 
-                src="/photo.png"
-                alt='Albert Menéndez'
-                className='p-24 rounded-full h-full w-auto'
-            />
-        </div>
         <div className='md:w-1/2 h-100'>
             <h3 className='text-xl md:text-3xl font-bold'>Hi, I am Albert Menéndez Fullstack Developer.</h3>
             <p className='text-md md:text-xl mt-3 md:mt-8 text-justify'>
