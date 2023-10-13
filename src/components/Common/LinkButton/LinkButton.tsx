@@ -9,7 +9,7 @@ const LinkButton = ({ to, icon, label }: {to: string, icon?: JSX.Element, label:
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className='flex flex-row justify-center cursor-pointer'
+                className='flex flex-row justify-center items-center cursor-pointer'
             >
                 {icon}
                 <span className='ml-3'>{label}</span>
