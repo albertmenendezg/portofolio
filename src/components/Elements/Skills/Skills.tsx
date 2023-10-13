@@ -39,6 +39,7 @@ const Skills = () => {
           </div>
           <div className='w-full md:w-1/2 px-4 pt-2'>
             <h2 className='text-4xl text-center'>Software Patterns</h2>
+            <Skill label='MVC' percent={100} />
             <Skill label='DDD' percent={90} />
             <Skill label='HEXAGONAL' percent={90} />
             <Skill label='CQRS' percent={60} />
