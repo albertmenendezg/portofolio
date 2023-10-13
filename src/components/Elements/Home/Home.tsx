@@ -2,7 +2,7 @@ import React from 'react'
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
 import { BsPersonFill } from 'react-icons/bs';
 import { useTypewriter, Cursor} from 'react-simple-typewriter'
-import LinkButton from '../../Common/LinkButton/LinkButton';
+import ScrollLinkButton from '../../Common/ScrollLinkButton/ScrollLinkButton';
 
 const Home = () => {
     
@@ -47,7 +47,7 @@ const Home = () => {
                         </a>
                     </div>
                 </div>
-                <LinkButton to='about' icon={<BsPersonFill />} label='More About Me' />
+                <ScrollLinkButton to='about' icon={<BsPersonFill />} label='More About Me' />
             </div>
             <div className='hidden md:flex w-1/2 h-100 items-center justify-center overflow-hidden'>
                 <img 

@@ -2,7 +2,7 @@ import React from 'react';
 import {FaPhoneAlt} from 'react-icons/fa';
 import {FiAtSign} from 'react-icons/fi';
 import {BsCodeSlash} from 'react-icons/bs';
-import LinkButton from '../../Common/LinkButton/LinkButton';
+import ScrollLinkButton from '../../Common/ScrollLinkButton/ScrollLinkButton';
 
 const About = () => {
   return (
@@ -36,7 +36,7 @@ const About = () => {
                 </div>
             </div>
             <div className="flex justify-center mt-10">
-                <LinkButton icon={<BsCodeSlash />} label='My Skills' to='skills' />
+                <ScrollLinkButton icon={<BsCodeSlash />} label='My Skills' to='skills' />
             </div>
         </div>
     </section>

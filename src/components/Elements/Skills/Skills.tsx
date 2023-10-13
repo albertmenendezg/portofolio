@@ -1,6 +1,6 @@
 import React from 'react'
 import Skill from '../../Common/Skill/Skill'
-import LinkButton from "../../Common/LinkButton/LinkButton";
+import ScrollLinkButton from "../../Common/ScrollLinkButton/ScrollLinkButton";
 import {FaBriefcase} from "react-icons/fa";
 
 const Skills = () => {
@@ -43,7 +43,7 @@ const Skills = () => {
             <Skill label='HEXAGONAL' percent={90} />
             <Skill label='CQRS' percent={60} />
             <div className='flex mt-8'>
-              <LinkButton to={'experience'} icon={<FaBriefcase />} label={'My Experience'} />
+              <ScrollLinkButton to={'experience'} icon={<FaBriefcase />} label={'My Experience'} />
             </div>
           </div>
         </div>
