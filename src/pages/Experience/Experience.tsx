@@ -22,7 +22,7 @@ const experiences: TExperience[] = [
   }
 ]
 
-const Experience = () => {
+const Experience: React.FC = () => {
   return (
     <section id='experience' className='min-h-screen w-full pt-10 pb-20 px-5 flex flex-row border-b border-gray-900 rounded-md gap-4'>
       <div className='w-full'>

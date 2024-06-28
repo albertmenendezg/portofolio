@@ -2,9 +2,9 @@ import React from 'react';
 import {FaPhoneAlt} from 'react-icons/fa';
 import {FiAtSign} from 'react-icons/fi';
 import {BsCodeSlash} from 'react-icons/bs';
-import ScrollLinkButton from '../../Common/ScrollLinkButton/ScrollLinkButton';
+import ScrollLinkButton from '../../components/Common/ScrollLinkButton/ScrollLinkButton';
 
-const About = () => {
+const About: React.FC = () => {
   return (
     <section id='about' className='min-h-screen w-full pt-10 pb-20 px-5 flex flex-row border-b border-gray-900 rounded-md gap-x-16'>
         <div className='md:w-1/2 h-100'>

@@ -2,9 +2,9 @@ import React from 'react'
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
 import { BsPersonFill } from 'react-icons/bs';
 import { useTypewriter, Cursor} from 'react-simple-typewriter'
-import ScrollLinkButton from '../../Common/ScrollLinkButton/ScrollLinkButton';
+import ScrollLinkButton from '../../components/Common/ScrollLinkButton/ScrollLinkButton';
 
-const Home = () => {
+const Home: React.FC = () => {
     
     const [text] = useTypewriter({
         words: ["Backend Developer.", "DevOps Administrator." ,"Tech Apasionated.", "Frontend Developer."],

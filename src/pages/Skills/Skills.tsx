@@ -1,9 +1,9 @@
 import React from 'react'
-import Skill from '../../Common/Skill/Skill'
-import ScrollLinkButton from "../../Common/ScrollLinkButton/ScrollLinkButton";
+import Skill from '../../components/Common/Skill/Skill'
+import ScrollLinkButton from "../../components/Common/ScrollLinkButton/ScrollLinkButton";
 import {FaBriefcase} from "react-icons/fa";
 
-const Skills = () => {
+const Skills: React.FC = () => {
   return (
     <section id='skills' className='min-h-screen w-full pt-10 pb-20 px-5 flex flex-row border-b border-gray-900 rounded-md gap-4'>
       <div className='w-full'>
@@ -16,13 +16,13 @@ const Skills = () => {
             <Skill label='TAILWIND' percent={85} />
             <Skill label='JAVASCRIPT' percent={95} />
             <Skill label='REACT' percent={85} />
-            <Skill label='NEXTJS' percent={80} />
           </div>
           <div className='w-full md:w-1/2 px-4 pt-2'>
             <h2 className='text-4xl text-center'>Backend</h2>
             <Skill label='NODE' percent={85} />
             <Skill label='PHP' percent={100} />
             <Skill label='JAVA' percent={60} />
+            <Skill label='NESTJS' percent={75} />
             <Skill label='SQL' percent={90} />
             <Skill label='Symfony' percent={95} />
             <Skill label='Express.js' percent={90} />

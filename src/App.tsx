@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from './components/Elements/Navbar/Navbar';
-import Home from './components/Elements/Home/Home';
-import About from './components/Elements/About/About';
-import Skills from './components/Elements/Skills/Skills';
-import Experience from './components/Elements/Experience/Experience';
+import Navbar from "./pages/Navbar/Navbar";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Skills from "./pages/Skills/Skills";
+import Experience from "./pages/Experience/Experience";
 
 function App() {
   return (

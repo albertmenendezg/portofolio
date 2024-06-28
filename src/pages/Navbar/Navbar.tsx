@@ -25,7 +25,7 @@ const sections:TSection[] = [
     },
 ];
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
     return (
         <nav className='flex md:justify-end w-full'>
             <ul className='flex flex-row mx-auto md:mx-5'>
